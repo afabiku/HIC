@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects — Alex Fabiku</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style> body{background:linear-gradient(135deg,#071229 0%,#072034 50%,#0b2030 100%);color:#fff} .page{min-height:100vh;display:flex;flex-direction:column}.content{padding:6rem 1.5rem}</style>
+  </head>
+  <body>
+    <div class="container page">
+      <header class="py-3 mb-4 d-flex justify-content-between align-items-center">
+        <h3 class="mb-0 text-white">Projects</h3>
+        <nav class="nav">
+          <a class="nav-link text-white" href="/">Home</a>
+          <a class="nav-link text-white" href="/about">About</a>
+          <a class="nav-link text-white fw-bold" href="/projects">Projects</a>
+          <a class="nav-link text-white" href="/contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="content container">
+
+  <!-- Featured Projects -->
+  <section class="mb-5">
+    <h4 class="text-uppercase text-info mb-4 fw-semibold">Featured Projects</h4>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Custom Stty Implementation — Feb 2025</h5>
+            <p class="card-text">Built a lightweight command-line tool inspired by the Unix stty command. Implemented core terminal I/O configuration in C++ focusing on reliability and clarity.</p>
+            <p><strong>Focus:</strong> Terminal I/O, robustness, CLI UX.</p>
+            <a href="https://github.com/afabiku/Sttyl" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">RSA Encryption and Decryption Tool — Apr 2025</h5>
+            <p class="card-text">Developed an RSA encryption and decryption system simulating secure data transmission. Designed modular arithmetic-based key generation and cryptographic logic.</p>
+            <p><strong>Focus:</strong> Cryptography, key generation, math correctness.</p>
+            <a href="https://github.com/afabiku/RSA" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Database Design Project — Apr 2025</h5>
+            <p class="card-text">Created a web-based employee management system in a team of 4 with CRUD, validation, and user experience optimization.</p>
+            <p><strong>Focus:</strong> Data modeling, CRUD UX, teamwork, version control.</p>
+            <a href="https://github.com/afabiku/Database-Design" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coursework Projects -->
+  <section class="mb-5">
+    <h4 class="text-uppercase text-info mb-4 fw-semibold">Coursework Projects</h4>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col" v-for="proj in coursework">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">struct-prog-lang</h5>
+            <p class="card-text">Structures of Programming Languages course (Python, Fall 2025).</p>
+            <a href="https://github.com/afabiku/struct-prog-lang" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Operating-Systems</h5>
+            <p class="card-text">OS course projects in C++, exploring process management and memory concepts.</p>
+            <a href="https://github.com/afabiku/Operating-Systems" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">CS3-Projects</h5>
+            <p class="card-text">C++ coursework focusing on programming patterns and advanced data structures.</p>
+            <a href="https://github.com/afabiku/CS3-Projects" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Intro-To-Game-Development</h5>
+            <p class="card-text">Game dev exercises and prototypes built with Unity and C#.</p>
+            <a href="https://github.com/afabiku/Intro-To-Game-Development" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Miscellaneous / Forked Projects -->
+  <section>
+    <h4 class="text-uppercase text-info mb-4 fw-semibold">Other Projects</h4>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">image-detection (fork)</h5>
+            <p class="card-text">Forked repository exploring image detection concepts.</p>
+            <a href="https://github.com/afabiku/image-detection" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">CS2-Study-Note</h5>
+            <p class="card-text">Study notes, references, and supporting materials for CS2 coursework.</p>
+            <a href="https://github.com/afabiku/CS2-Study-Note" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">FabikuAbimbola-CS43203-Warm-up-Final</h5>
+            <p class="card-text">C exercises and assignments completed for class warm-ups and final tasks.</p>
+            <a href="https://github.com/afabiku/FabikuAbimbola-CS43203-Warm-up-Final" target="_blank" class="btn btn-outline-light btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+      <footer class="mt-auto py-3 text-center text-white-50">
+        <div class="container">© 2025 Alex Fabiku | Portfolio Website Project</div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

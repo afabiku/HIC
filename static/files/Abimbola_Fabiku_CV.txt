@@ -1,0 +1,41 @@
+Abimbola Fabiku
+Amherst, OH
+Phone: +1 4406540386
+Email: fafabikualex@gmail.com
+GitHub: https://github.com/afabiku
+
+
+EDUCATION
+Kent State University, Kent, OH
+Bachelor’s, Computer Science — Expected May 2026
+Cumulative GPA: 3.0; Dean’s List 2025
+Relevant Coursework: Human Interface Computing, Structured Programming, Operating Systems, Software Engineering, Computer Organization, Computer Communication Networks, Big Data Analytics, System Programming, Algorithms, CS I, CS II, CS III
+
+Marion L. Steele High School, Amherst, OH
+SWC Scholar Award; High Honor Roll — May 2022
+
+WORK EXPERIENCE
+Jesus House Lorain — Media Tech Coordinator (July 2019)
+- Operated live recording equipment during services; managed lyrics and media display; troubleshot technical issues.
+
+Wingstop Restaurants — Team Member (June 2022 - 2023)
+- Maintained food safety, took orders, handled transactions, resolved customer inquiries.
+
+Apple Green — Team Member (June 2023 - Present)
+- Assisted training new employees, managed inventory restocking and organization.
+
+PROJECTS
+Custom Stty Implementation (February 2025)
+- Lightweight command-line tool inspired by the Unix stty command. Implemented core features.
+
+RSA Encryption and Decryption (April 2025)
+- RSA tool to demonstrate key generation and encrypt/decrypt; designed full system.
+
+Database Design (April 2025)
+- Web-based tool for employee data management: search, update, create. Team of 4.
+
+ADDITIONAL
+Certifications: CompTIA Security+ (SY0-701), Python for Everyone
+Technical Skills: Access Control, Cryptography, Cyber Forensics, Data Security, Disaster Recovery Planning, Malware Identification, Mobile Device Security, Network Security, Threat Detection, C++, Python, JavaScript, HTML/CSS, Information Security Management, Security Policies
+Languages: English, Yoruba
+
